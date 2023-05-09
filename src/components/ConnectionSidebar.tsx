@@ -205,7 +205,7 @@ const ConnectionSidebar = () => {
                   <QuotaWidget />
                 </div>
               )}
-              <a
+              {/* <a
                 href="https://discord.gg/z6kakemDjm"
                 className="text-indigo-600 dark:text-indigo-400 text-sm font-medium flex flex-row justify-center items-center mb-2 hover:underline"
                 target="_blank"
@@ -238,7 +238,7 @@ const ConnectionSidebar = () => {
                   width="250"
                   height="54"
                 />
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

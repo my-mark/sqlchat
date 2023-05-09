@@ -50,7 +50,7 @@ const EmptyView = (props: Props) => {
         className || ""
       } w-full h-full flex flex-col justify-start items-center`}
     >
-      <div className="w-96 max-w-full font-medium leading-loose mb-8">
+      {/* <div className="w-96 max-w-full font-medium leading-loose mb-8">
         <img
           src={
             isDarkMode
@@ -59,7 +59,7 @@ const EmptyView = (props: Props) => {
           }
           alt="sql-chat-logo"
         />
-      </div>
+      </div> */}
       <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-4">
         <div className="w-full flex flex-col justify-start items-center">
           <Icon.BsSun className="w-8 h-auto opacity-80" />

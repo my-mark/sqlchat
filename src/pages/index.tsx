@@ -27,14 +27,14 @@ const IndexPage: NextPage = () => {
     <div>
       <Head>
         <title>
-          SQL Chat - Chat-based SQL Client and Editor for the next decade
+          SQL Bot - Chat-based SQL Client and Editor for the next decade
         </title>
         <meta
           name="description"
           content="Chat-based SQL Client and Editor for the next decade"
         />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="og:title" property="og:title" content="SQL Chat" />
+        <meta name="og:title" property="og:title" content="SQL Bot" />
         <meta
           name="og:description"
           property="og:description"
@@ -53,7 +53,7 @@ const IndexPage: NextPage = () => {
         />
       </Head>
 
-      <h1 className="sr-only">SQL Chat</h1>
+      <h1 className="sr-only">SQL Bot</h1>
 
       <main className="w-full h-full flex flex-row dark:bg-zinc-800">
         <ConnectionSidebar />
