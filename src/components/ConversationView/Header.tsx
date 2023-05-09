@@ -44,8 +44,8 @@ const Header = (props: Props) => {
       <span className="w-auto text-center h-8 p-1 hidden lg:block">
         {title}
       </span>
-      {/* <div className="mr-2 sm:mr-3 relative flex flex-row justify-end items-center">
-        <a
+      <div className="mr-2 sm:mr-3 relative flex flex-row justify-end items-center">
+        {/* <a
           href="https://www.bytebase.com?source=sqlchat"
           className="hidden sm:flex flex-row justify-center items-center h-10 px-3 py-1 rounded-md whitespace-nowrap hover:bg-gray-100 dark:hover:bg-zinc-700"
           target="_blank"
@@ -59,9 +59,9 @@ const Header = (props: Props) => {
             }
             alt=""
           />
-        </a>
+        </a> */}
         <SettingAvatarIcon />
-      </div> */}
+      </div>
     </div>
   );
 };
